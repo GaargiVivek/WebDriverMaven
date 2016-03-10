@@ -21,7 +21,9 @@ public class LoginTest {
 		driver.get("https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/");
 		driver.findElement(By.id("Email")).sendKeys("jwalaarunn@gmail.com");
 		driver.findElement(By.id("next")).click();
-		driver.findElement(By.id("Passwd")).sendKeys("mayaarunn15");
+		driver.findElement(By.id("Passwd")).sendKeys("jrfgdsf");
+		driver.findElement(By.id("signIn")).click();
+		
 	}
 	
 	@AfterTest
